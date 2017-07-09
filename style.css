@@ -187,7 +187,6 @@ border-color:#e6e6e6 #e6e6e6;
 -------------------------------------------------------------- */
 
 /* Small headers */
-.archive-title,
 .page-title,
 .widget-title,
 .entry-content th,
@@ -427,6 +426,7 @@ img.wp-smiley,
 	clear: both;
 	line-height: 2;
 	overflow: hidden;
+	background: #fff;
 }
 #nav-above {
 	padding: 24px 0;
@@ -1001,7 +1001,6 @@ img.aligncenter,
 	hyphens: auto;
 	background: #fff;
 }
-
 .page-links {
 	clear: both;
 	line-height: 1.714285714;
@@ -1026,14 +1025,11 @@ footer.entry-meta {
 /* =Archives
 -------------------------------------------------------------- */
 
-.archive-header,
-.page-header {
-	margin-bottom: 48px;
-	margin-bottom: 3.428571429rem;
-	padding-bottom: 22px;
-	padding-bottom: 1.571428571rem;
-	border-bottom: 1px solid #ededed;
+.archive-header{
+	margin: 15px 0;
+	padding-left: 10px;
 }
+.archive-header .archive-title{font-size: 18px; color:#0088d0}
 .archive-meta {
 	color: #757575;
 	font-size: 12px;
@@ -1042,7 +1038,13 @@ footer.entry-meta {
 	margin-top: 22px;
 	margin-top: 1.571428571rem;
 }
-
+.page-header {
+	margin-bottom: 48px;
+	margin-bottom: 3.428571429rem;
+	padding-bottom: 22px;
+	padding-bottom: 1.571428571rem;
+	border-bottom: 1px solid #ededed;
+}
 /* =Single audio/video attachment view
 -------------------------------------------------------------- */
 
@@ -1917,7 +1919,17 @@ height: 250px;}
 .sidebar-left-wrapper li{
 height: 40px;}
 #main{background: #e6e6e6;}
-.site-content article.page {height: 295px;}
+.home .site-content article.page {height: 270px;}
 .site-content article.page header{
 	margin-bottom: 10px;}
 .blog .site-content article {margin-bottom: 10px;}
+#bottomAD {display: none;}
+#article-tag { margin-left: 15px; }
+
+#article-tag a { padding: 2px 4px;
+    margin: 0 4px;
+    background: #EDF3DE;
+    text-decoration: none;
+    color: #6C8C37;
+    outline: none;
+    }
