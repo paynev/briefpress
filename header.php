@@ -39,7 +39,7 @@
 		<div id="logo-wrapper">
       			<div class="logo-img">
         			<a href="/" title="" rel="home" id="logo">
-          			<img src="http://orxvskjjr.bkt.clouddn.com/image/logo10034.png" alt="荆门电脑维修">
+          			<img src="https://i.niupic.com/images/2017/09/02/bUqFWY.png" alt="荆门电脑维修">
         			</a>
       				</div>
 			<div id="logo-txt-wrapper"><div id="txttopdiv"><a id="logotxttop">无限网络工作室</a></div>
@@ -53,7 +53,7 @@
 		</div>
 	</div>
 	<div id="header-show-image">
-		<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="http://orxvskjjr.bkt.clouddn.com/image/header.jpg" class="header-image" width="<?php echo esc_attr( get_custom_header()->width ); ?>" height="<?php echo esc_attr( get_custom_header()->height ); ?>" alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" /></a></div>
+		<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="https://i.niupic.com/images/2017/09/02/wYKfAT.jpg" class="header-image" width="<?php echo esc_attr( get_custom_header()->width ); ?>" height="<?php echo esc_attr( get_custom_header()->height ); ?>" alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" /></a></div>
 	</header><!-- #masthead -->
 
 	<div id="main" class="wrapper">
