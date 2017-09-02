@@ -1919,7 +1919,7 @@ height: 250px;}
 .sidebar-left-wrapper li{
 height: 40px;}
 #main{background: #e6e6e6;}
-.home .site-content article.page {height: 270px;}
+.home .site-content article.page {height: 130px;}
 .site-content article.page header{
 	margin-bottom: 10px;}
 .blog .site-content article {margin-bottom: 10px;}
@@ -1933,3 +1933,13 @@ height: 40px;}
     color: #6C8C37;
     outline: none;
     }
+.sidebar-news-wrapper {
+    background: #fff;
+    margin-bottom: 8px;
+
+
+}
+.sidebar-news-wrapper h3{ margin-left: 5px;
+    font-size: 14px;}
+.sidebar-news-wrapper ul{margin-left: 20px;}
+.sidebar-news-wrapper li {height:20px;}

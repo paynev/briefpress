@@ -19,6 +19,11 @@ get_header(); ?>
 		<?php endif; ?>
 	</div>
 	<div id="primary" class="site-content">
+		<div class="sidebar-news-wrapper">
+	 	<?php if ( is_active_sidebar( 'sidebar-3' ) ) : ?>
+			<?php dynamic_sidebar( 'sidebar-3' ); ?>
+		<?php endif; ?>
+		</div><!-- #end news-wrapper-->
 		<div id="content" role="main">
 
 			<?php while ( have_posts() ) : the_post(); ?>
@@ -33,6 +38,7 @@ get_header(); ?>
 			<?php endwhile; // end of the loop. ?>
 
 		</div><!-- #content -->
+		
 	</div><!-- #primary -->
 
 <?php get_sidebar( 'front' ); ?>
