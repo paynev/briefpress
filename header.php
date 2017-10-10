@@ -22,8 +22,8 @@
 <meta charset="<?php bloginfo( 'charset' ); ?>" />
 <meta name="viewport" content="width=device-width" />
 <title><?php wp_title( '|', true, 'right' ); ?></title>
-<meta name="keywords" content="荆门电脑维修,电脑维修,荆门电脑上门维修,荆门修电脑,笔记本维修,荆门打印机维修,荆门网络维护,家庭网络,路由器,网络布线" />
-<meta name="description" content="本工作室(13597971730)，专注于IT设备销售与维护服务，致力于为广大客户提供电脑维修、打印机耗材销售、综合布线、路由器调试、网络维护、计算机网络和监控网络组建、手机故障检测及维修等服务。同时也是IT及周边用品的零售和分销商。" />
+<!--meta name="keywords" content="荆门电脑维修,电脑维修,荆门电脑上门维修,荆门修电脑,笔记本维修,荆门打印机维修,荆门网络维护,家庭网络,路由器,网络布线" />
+<!--meta name="description" content="本工作室(13597971730)，专注于IT设备销售与维护服务，致力于为广大客户提供电脑维修、打印机耗材销售、综合布线、路由器调试、网络维护、计算机网络和监控网络组建、手机故障检测及维修等服务。同时也是IT及周边用品的零售和分销商。" />
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 <?php // Loads HTML5 JavaScript file to add support for HTML5 elements in older IE versions. ?>
 <!--[if lt IE 9]>

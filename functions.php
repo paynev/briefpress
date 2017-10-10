@@ -401,7 +401,7 @@ function twentytwelve_entry_meta() {
 	// Translators: used between list items, there is a space after the comma.
 	//$tag_list = get_the_tag_list( '', __( ', ', 'twentytwelve' ) );
 
-	$date = sprintf( '<a title="%1$s" rel="bookmark"><time class="entry-date" datetime="%2$s">%3$s</time></a>',
+	$date = sprintf( '<a title="%1$s" rel="bookmark"><time class="entry-date updated" datetime="%2$s">%3$s</time></a>',
 		esc_attr( get_the_time() ),
 		esc_attr( get_the_date( 'c' ) ),
 		esc_html( get_the_date() )
